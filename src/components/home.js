@@ -8,18 +8,18 @@ export default function Home(){
         second_team_odds:""
     })
     
-    const [addBet,setAddBet]=useState({
-        first_team_name:"",
-        second_team_name:"",
-        winner_choice:"",
-        stakes:""
-    })
+    // const [addBet,setAddBet]=useState({
+    //     first_team_name:"",
+    //     second_team_name:"",
+    //     winner_choice:"",
+    //     stakes:""
+    // })
 
-    const [removeBet,setRemoveBet]=useState({
-        first_team_name:"",
-        second_team_name:"",
-        winner:""
-    })
+    // const [removeBet,setRemoveBet]=useState({
+    //     first_team_name:"",
+    //     second_team_name:"",
+    //     winner:""
+    // })
 
 
     const handleChange3 = e => {
