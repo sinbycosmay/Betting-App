@@ -3,14 +3,11 @@ import Navbar from './components/navbar';
 import Home from './components/home';
 import Login from './components/login';
 import Register from './components/register';
-import Betting_Rules from './components/how_to_bet';
+import BettingRules from './components/how_to_bet';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
-  useMatch,
-  useParams
 } from "react-router-dom";
 function App() {
   return (
@@ -24,7 +21,7 @@ function App() {
           </Route>
           <Route exact path="/Register" element={<Register/>}>
           </Route>
-          <Route exact path="/Betting-Rules" element={<Betting_Rules/>}>
+          <Route exact path="/Betting-Rules" element={<BettingRules/>}>
           </Route>
           <Route exact path="/" element={<Home/>}>
           </Route>
